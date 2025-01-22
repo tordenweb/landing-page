@@ -105,7 +105,7 @@ export default ({
       ],
     },
     {
-      name: "Business",
+      name: "Busines",
       price: "$37.99",
       duration: "Monthly",
       mainFeature: "Suited for Production Websites",

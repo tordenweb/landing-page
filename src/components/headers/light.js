@@ -141,7 +141,7 @@ export default ({
 /* The below code is for generating dynamic break points for navbar.
  * Using this you can specify if you want to switch
  * to the toggleable mobile navbar at "sm", "md" or "lg" or "xl" above using the collapseBreakpointClass prop
- * Its written like this because we are using macros and we can not insert dynamic variables in macros
+ * Its written like this because we are using macros and we can not insert dynamic variables in macro
  */
 
 const collapseBreakPointCssMap = {
