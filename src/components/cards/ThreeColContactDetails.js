@@ -2,23 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 //eslint-disable-next-line
-import { css } from "styled-components/macro";
+import { css } from "styled-components/macro"; //eslint-disable-line
 import {
   SectionHeading,
   Subheading as SubheadingBase,
 } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
 
-import defaultCardImage from "images/shield-icon.svg";
-
 import { ReactComponent as SvgDecoratorBlob3 } from "images/svg-decorator-blob-3.svg";
-
-import SupportIconImage from "images/support-icon.svg";
-import ShieldIconImage from "images/shield-icon.svg";
-import CustomizeIconImage from "images/customize-icon.svg";
-import FastIconImage from "images/fast-icon.svg";
-import ReliableIconImage from "images/reliable-icon.svg";
-import SimpleIconImage from "images/simple-icon.svg";
 
 const Container = tw.div`relative`;
 
@@ -36,7 +27,7 @@ const Column = styled.div`
 `;
 
 const Card = styled.div`
-  ${tw`flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left h-full mx-4 px-2 py-8`}
+  ${tw` flex-col sm:flex-row items-center sm:items-start text-center sm:text-center h-full mx-4 px-2 py-8`}
   .imageContainer {
     ${tw`border text-center rounded-full p-5 flex-shrink-0`}
     img {
@@ -49,7 +40,7 @@ const Card = styled.div`
   }
 
   .title {
-    ${tw`mt-4 tracking-wide font-bold text-blue-800 text-2xl leading-none`}
+    ${tw`mt-4 tracking-wide font-bold text-2xl leading-none`}
   }
 
   .description {
@@ -63,22 +54,41 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
 
 export default ({
   cards = null,
-  heading = "Amazing Features",
-  subheading = "Features",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  heading = "Nosso escritorio",
+  subheading = "Localizacao",
+  description = "Venham nos fazer uma visita, estamos localizados no endereco abaixo.",
 }) => {
   const defaultCards = [
     {
-      imageSrc: ShieldIconImage,
       title: "Secure",
       description:
         "We strictly only deal with vendors that provide top notch security.",
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" },
+    {
+      title: "24/7 Support",
+      description:
+        "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+    },
+    {
+      title: "Reliable",
+      description:
+        "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+    },
+    {
+      title: "Easy",
+      description:
+        "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+    },
+    {
+      title: "Customizable",
+      description:
+        "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+    },
+    {
+      title: "Fast",
+      description:
+        "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+    },
   ];
 
   if (!cards) cards = defaultCards;
@@ -93,9 +103,6 @@ export default ({
         {cards.map((card, i) => (
           <Column key={i}>
             <Card>
-              <span className="imageContainer">
-                <img src={card.imageSrc || defaultCardImage} alt="" />
-              </span>
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
                 <p className="description">

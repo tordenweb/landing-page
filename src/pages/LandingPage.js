@@ -126,10 +126,10 @@ export default () => {
         ]}
       />
       <Testimonial
-        subheading={<Subheading>Testimonials</Subheading>}
+        subheading={<Subheading>Depoimentos</Subheading>}
         heading={
           <>
-            Our Clients <HighlightedText>Love Us.</HighlightedText>
+            Nossos clientes nos <HighlightedText>amam.</HighlightedText>
           </>
         }
         testimonials={[
@@ -137,21 +137,21 @@ export default () => {
             stars: 5,
             profileImageSrc:
               "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
-            heading: "Amazing User Experience",
+            heading: "Experiência do Usuário Incrível",
             quote:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+              "Desde que comecei a usar este serviço, minha experiência tem sido simplesmente incrível! A interface é super intuitiva, fácil de navegar, e tudo funciona de maneira muito fluida. A cada interação, percebo o quanto a equipe se preocupa em oferecer uma experiência excepcional. Realmente fez a diferença no meu dia a dia e me sinto mais produtiva. Recomendo a todos que buscam uma experiência de usuário sem complicações!",
             customerName: "Charlotte Hale",
-            customerTitle: "Director, Delos Inc.",
+            customerTitle: "Diretora, Coca-Cola Company.",
           },
           {
             stars: 5,
             profileImageSrc:
               "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-            heading: "Love the Developer Experience and Design Principles !",
+            heading: "Tranformou completamente nossas vidas!",
             quote:
-              "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+              "A Torden Web transformou completamente a maneira como gerenciamos a nossa empresa. A interface é simples, mas poderosa, e a integração com outras ferramentas que usamos no dia a dia fez toda a diferença. A equipe de suporte sempre foi extremamente ágil e eficiente em resolver nossas dúvidas. Além disso, a estabilidade e a performance do sistema são impressionantes. Sem dúvida, uma das melhores soluções de tecnologia que adotamos nos últimos anos!",
             customerName: "Adam Cuppy",
-            customerTitle: "Founder, EventsNYC",
+            customerTitle: "Gerente Fundador, Heinekein Brasil Company.",
           },
         ]}
       />

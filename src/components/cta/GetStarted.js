@@ -23,15 +23,15 @@ const PrimaryLink = tw(
 
 const SecondaryLink = tw(
   Link
-)`text-gray-100 border-gray-500 hover:bg-gray-100 hover:text-blue-700 hover:border-blue-700`;
+)`text-gray-100 border-gray-500 hover:bg-gray-100 hover:text-blue-800 hover:border-blue-800`;
 
 const DecoratorBlobContainer = tw.div`absolute inset-0 overflow-hidden rounded-lg`;
 const DecoratorBlob1 = tw(
   SvgDecoratorBlob1
-)`absolute bottom-0 left-0 w-80 h-80 transform -translate-x-20 translate-y-32 text-blue-700 opacity-50`;
+)`absolute bottom-0 left-0 w-80 h-80 transform -translate-x-20 translate-y-32 text-blue-800 opacity-50`;
 const DecoratorBlob2 = tw(
   SvgDecoratorBlob1
-)`absolute top-0 right-0 w-80 h-80 transform  translate-x-20 -translate-y-64 text-blue-700 opacity-50`;
+)`absolute top-0 right-0 w-80 h-80 transform  translate-x-20 -translate-y-64 text-blue-800 opacity-50`;
 export default ({
   text = "Developers all over the world are happily using Treact.",
   primaryLinkText = "Get Started",
