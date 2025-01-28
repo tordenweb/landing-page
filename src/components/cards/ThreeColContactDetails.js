@@ -56,7 +56,7 @@ export default ({
   cards = null,
   heading = "Nosso escritorio",
   subheading = "Localizacao",
-  description = "Venham nos fazer uma visita, estamos localizados no endereco abaixo.",
+  description = "Torden Web está aqui para ajudar a sua empresa a alcançar novos patamares com soluções tecnológicas inovadoras. Entre em contato e descubra como podemos transformar o seu negócio.",
 }) => {
   const defaultCards = [
     {

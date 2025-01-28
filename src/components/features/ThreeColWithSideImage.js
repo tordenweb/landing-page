@@ -49,11 +49,11 @@ const Card = styled.div`
   }
 
   .title {
-    ${tw`mt-4 tracking-wide font-bold text-blue-800 text-2xl leading-none`}
+    ${tw`mt-4 tracking-wide font-bold text-blue-800 text-lg leading-none`}
   }
 
   .description {
-    ${tw`mt-1 sm:mt-4 font-medium text-secondary-100 leading-loose`}
+    ${tw`mt-1 sm:mt-4 text-sm text-secondary-100 leading-loose`}
   }
 `;
 
@@ -65,20 +65,45 @@ export default ({
   cards = null,
   heading = "Amazing Features",
   subheading = "Features",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description = "Na Torden Web, oferecemos soluções personalizadas que se adaptam às necessidades do seu negócio. Nossos recursos avançados ajudam a otimizar processos, aumentar a produtividade e trazer resultados reais para sua empresa.",
 }) => {
   const defaultCards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Secure",
+      title: "Segurança Avançada",
       description:
-        "We strictly only deal with vendors that provide top notch security.",
+        "Garantimos proteção de ponta para todos os dados da sua empresa, com criptografia de alto nível e medidas de segurança rigorosas para que você possa operar com total tranquilidade.",
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" },
+    {
+      imageSrc: SupportIconImage,
+      title: "Suporte 24/7",
+      description:
+        "Nosso time de suporte está disponível a qualquer hora do dia, todos os dias da semana, para oferecer assistência e resolver qualquer dúvida ou problema que possa surgir, sem que você precise se preocupar com o horário.",
+    },
+    {
+      imageSrc: CustomizeIconImage,
+      title: "Personalização Completa",
+      description:
+        "A Torden Web oferece soluções totalmente adaptáveis às necessidades específicas do seu negócio, permitindo que você configure o sistema conforme as particularidades da sua operação.",
+    },
+    {
+      imageSrc: ReliableIconImage,
+      title: "Confiabilidade",
+      description:
+        "Nossa plataforma é robusta e estável, garantindo que sua empresa opere sem interrupções, com alta disponibilidade e desempenho contínuo, sempre quando você mais precisar.",
+    },
+    {
+      imageSrc: FastIconImage,
+      title: "Velocidade",
+      description:
+        "Com tecnologia de ponta, o software da Torden Web oferece uma experiência rápida e eficiente, otimizada para agilizar os processos da sua empresa e aumentar a produtividade.",
+    },
+    {
+      imageSrc: SimpleIconImage,
+      title: "Facilidade de Uso",
+      description:
+        "O sistema foi desenvolvido com uma interface intuitiva, simples e fácil de usar, para que sua equipe possa se adaptar rapidamente e começar a aproveitar os benefícios sem complicações.",
+    },
   ];
 
   if (!cards) cards = defaultCards;

@@ -21,20 +21,24 @@ import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sig
 export default () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-blue-500`;
   const HighlightedText = tw.span`text-blue-500`;
+  const HighlightedText2 = tw.p`text-blue-500 text-4xl`;
 
   return (
     <AnimationRevealPage>
       <Hero roundedHeaderButton={true} />
       <Features
-        subheading={<Subheading>Features</Subheading>}
+        subheading={<Subheading>Recursos</Subheading>}
         heading={
           <>
-            We have Amazing <HighlightedText>Service.</HighlightedText>
+            Soluções Sob Medida:{" "}
+            <HighlightedText2>
+              Explore os Recursos da Torden Web.
+            </HighlightedText2>
           </>
         }
       />
       <MainFeature
-        subheading={<Subheading>Quality Work</Subheading>}
+        subheading={<Subheading>Trabalho de Qualidade</Subheading>}
         imageSrc={heroScreenshotImageSrc}
         imageBorder={true}
         imageDecoratorBlob={true}
@@ -52,11 +56,11 @@ export default () => {
         decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
       />
       <MainFeature2
-        subheading={<Subheading>VALUES</Subheading>}
+        subheading={<Subheading>Valores</Subheading>}
         heading={
           <>
-            We Always Abide by Our{" "}
-            <HighlightedText>Principles.</HighlightedText>
+            Integridade, Inovação e Excelência:
+            <HighlightedText> Os Valores da Torden Web.</HighlightedText>
           </>
         }
         imageSrc={prototypeIllustrationImageSrc}
@@ -64,16 +68,16 @@ export default () => {
         features={[
           {
             Icon: MoneyIcon,
-            title: "Affordable",
+            title: "Preços acessíveis",
             description:
-              "We promise to offer you the best rate we can - at par with the industry standard.",
+              "Oferecemos soluções acessíveis que combinam qualidade e eficiência, permitindo que empresas de diferentes tamanhos tenham acesso a tecnologias poderosas sem comprometer o orçamento.",
             iconContainerCss: tw`bg-green-300 text-green-800`,
           },
           {
             Icon: BriefcaseIcon,
-            title: "Professionalism",
+            title: "Profissionalismo",
             description:
-              "We assure you that our templates are designed and created by professional designers.",
+              "O profissionalismo está no coração de tudo o que fazemos. Nosso compromisso é oferecer soluções de alta qualidade com ética, dedicação e competência, garantindo a satisfação e confiança de nossos clientes.",
             iconContainerCss: tw`bg-red-300 text-red-800`,
           },
         ]}
@@ -129,7 +133,8 @@ export default () => {
         subheading={<Subheading>Depoimentos</Subheading>}
         heading={
           <>
-            Nossos clientes nos <HighlightedText>amam.</HighlightedText>
+            Resultados Reais:
+            <HighlightedText> O Que Nossos Clientes Dizem</HighlightedText>
           </>
         }
         testimonials={[
@@ -156,44 +161,48 @@ export default () => {
         ]}
       />
       <FAQ
-        subheading={<Subheading>FAQS</Subheading>}
+        subheading={<Subheading>Perguntas Frequentes</Subheading>}
         heading={
           <>
-            You have <HighlightedText>Questions ?</HighlightedText>
+            Você tem <HighlightedText>Perguntas?</HighlightedText>
           </>
         }
         faqs={[
           {
-            question: "Are all the templates easily customizable ?",
+            question:
+              "O que é o software da Torden Web e como ele pode beneficiar minha empresa ?",
             answer:
-              "Yes, they all are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              "O software da Torden Web é uma solução tecnológica personalizada para empresas que buscam melhorar a fluidez e a eficiência de seus sistemas internos. Ele é projetado para otimizar processos, integrar diferentes áreas e garantir que sua equipe trabalhe de forma mais ágil e conectada, promovendo aumento de produtividade e redução de erros.",
           },
           {
             question:
-              "How long do you usually support an standalone template for ?",
+              "Quais problemas específicos o software da Torden Web resolve para minha empresa ?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          },
-          {
-            question: "What kind of payment methods do you accept ?",
-            answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              "Nosso software resolve problemas comuns como a falta de integração entre sistemas, processos manuais e ineficientes, e dificuldade na comunicação entre departamentos. Ele automatiza tarefas repetitivas, melhora o fluxo de informações e proporciona uma gestão mais centralizada e transparente.",
           },
           {
             question:
-              "Is there a subscribption service to get the latest templates ?",
+              "O software da Torden Web é compatível com outros sistemas e ferramentas que já usamos ?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              "Sim! Nosso software foi desenvolvido para ser flexível e altamente compatível com uma variedade de sistemas já utilizados em empresas. A Torden Web prioriza a integração fácil com as ferramentas existentes, para que a transição seja simples e a adaptação dos colaboradores seja rápida.",
           },
           {
-            question: "Are the templates compatible with the React ?",
+            question:
+              "Como o software da Torden Web pode melhorar a comunicação dentro da minha equipe?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              "O software facilita a comunicação interna ao centralizar informações importantes e oferecer funcionalidades como mensagens, notificações e atualizações em tempo real. Isso assegura que todos os membros da equipe estejam alinhados e informados, o que melhora a colaboração e reduz a chance de falhas de comunicação.",
           },
           {
-            question: "Do you really support Internet Explorer 11 ?",
+            question:
+              "O Torden Web oferece suporte para personalização do software de acordo com as necessidades da minha empresa ?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              "Sim, nosso software é totalmente personalizável. A Torden Web entende que cada empresa tem necessidades únicas, então oferecemos soluções ajustáveis para atender às particularidades de seu negócio, garantindo que o sistema se encaixe perfeitamente nas suas operações.",
+          },
+          {
+            question:
+              "Quais são os benefícios de adotar o software da Torden Web em termos de produtividade e resultados ?",
+            answer:
+              "Ao automatizar processos e integrar diferentes áreas da empresa, nosso software reduz o tempo gasto em tarefas manuais e aumenta a precisão das operações. Isso resulta em maior produtividade, menores custos operacionais e, consequentemente, melhores resultados para sua empresa a curto e longo prazo.",
           },
         ]}
       />

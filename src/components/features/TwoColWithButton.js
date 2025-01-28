@@ -6,7 +6,6 @@ import {
   SectionHeading,
   Subheading as SubheadingBase,
 } from "components/misc/Headings.js";
-import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import TeamIllustrationSrc from "images/team-illustration-2.svg";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
 
@@ -39,19 +38,15 @@ const Heading = tw(
 )`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
 const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100`;
 
-const PrimaryButton = styled(PrimaryButtonBase)((props) => [
-  tw`mt-8 md:mt-8 text-sm inline-block mx-auto md:mx-0`,
-  props.buttonRounded && tw`rounded-full`,
-]);
-
 export default ({
   subheading = "Our Expertise",
   heading = (
     <>
-      Designed & Developed by <span tw="text-blue-500">Professionals.</span>
+      Soluções de Alta Performance:{" "}
+      <p tw="text-blue-500 text-3xl">O Padrão de Qualidade da Torden Web</p>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Na Torden Web, acreditamos que qualidade é a base para a entrega de soluções realmente eficazes. Por isso, nossas soluções são desenvolvidas com foco em alta performance, garantindo resultados rápidos, eficientes e sustentáveis para o seu negócio. Com um time de especialistas e tecnologias de ponta, asseguramos que cada projeto atenda aos mais altos padrões de qualidade, oferecendo um sistema robusto, seguro e totalmente alinhado às necessidades do seu negócio. Ao escolher a Torden Web, você está optando por excelência, inovação e resultados tangíveis que fazem a diferença.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,
@@ -82,13 +77,6 @@ export default ({
             <Subheading>{subheading}</Subheading>
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-            <PrimaryButton
-              buttonRounded={buttonRounded}
-              as="a"
-              href={primaryButtonUrl}
-            >
-              {primaryButtonText}
-            </PrimaryButton>
           </TextContent>
         </TextColumn>
       </TwoColumn>
