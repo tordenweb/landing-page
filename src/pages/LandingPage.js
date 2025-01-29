@@ -6,14 +6,12 @@ import Hero from "components/hero/TwoColumnWithInput.js";
 import Features from "components/features/ThreeColWithSideImage.js";
 import MainFeature from "components/features/TwoColWithButton.js";
 import MainFeature2 from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
-import FeatureWithSteps from "components/features/TwoColWithSteps.js";
-import Pricing from "components/pricing/ThreePlans.js";
+import About from "components/about/ThreePlans.js";
 import Testimonial from "components/testimonials/TwoColumnWithImageAndRating.js";
 import FAQ from "components/faqs/SingleCol.js";
 import GetStarted from "components/cta/GetStarted";
 import Footer from "components/footers/FiveColumnWithBackground.js";
 import heroScreenshotImageSrc from "images/hero-screenshot-1.png";
-import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
@@ -26,6 +24,17 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero roundedHeaderButton={true} />
+      <About
+        subheading={<Subheading>Quem somos</Subheading>}
+        heading={
+          <>
+            Torden Web:{" "}
+            <HighlightedText2>
+              Tecnologia que Conecta, Soluções que Transformam.
+            </HighlightedText2>
+          </>
+        }
+      />
       <Features
         subheading={<Subheading>Recursos</Subheading>}
         heading={
@@ -43,24 +52,12 @@ export default () => {
         imageBorder={true}
         imageDecoratorBlob={true}
       />
-      <FeatureWithSteps
-        subheading={<Subheading>STEPS</Subheading>}
-        heading={
-          <>
-            Easy to <HighlightedText>Get Started.</HighlightedText>
-          </>
-        }
-        textOnLeft={false}
-        imageSrc={macHeroScreenshotImageSrc}
-        imageDecoratorBlob={true}
-        decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
-      />
       <MainFeature2
         subheading={<Subheading>Valores</Subheading>}
         heading={
           <>
             Integridade, Inovação e Excelência:
-            <HighlightedText> Os Valores da Torden Web.</HighlightedText>
+            <HighlightedText2> Os Valores da Torden Web.</HighlightedText2>
           </>
         }
         imageSrc={prototypeIllustrationImageSrc}
@@ -79,53 +76,6 @@ export default () => {
             description:
               "O profissionalismo está no coração de tudo o que fazemos. Nosso compromisso é oferecer soluções de alta qualidade com ética, dedicação e competência, garantindo a satisfação e confiança de nossos clientes.",
             iconContainerCss: tw`bg-red-300 text-red-800`,
-          },
-        ]}
-      />
-      <Pricing
-        subheading={<Subheading>Pricing</Subheading>}
-        heading={
-          <>
-            Reasonable & Flexible <HighlightedText>Plans.</HighlightedText>
-          </>
-        }
-        plans={[
-          {
-            name: "Personal",
-            price: "$17.99",
-            duration: "Monthly",
-            mainFeature: "For Individuals",
-            features: [
-              "30 Templates",
-              "7 Landing Pages",
-              "12 Internal Pages",
-              "Basic Assistance",
-            ],
-          },
-          {
-            name: "Business",
-            price: "$37.99",
-            duration: "Monthly",
-            mainFeature: "For Small Businesses",
-            features: [
-              "60 Templates",
-              "15 Landing Pages",
-              "22 Internal Pages",
-              "Priority Assistance",
-            ],
-            featured: true,
-          },
-          {
-            name: "Enterprise",
-            price: "$57.99",
-            duration: "Monthly",
-            mainFeature: "For Large Companies",
-            features: [
-              "90 Templates",
-              "27 Landing Pages",
-              "37 Internal Pages",
-              "Personal Assistance",
-            ],
           },
         ]}
       />

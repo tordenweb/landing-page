@@ -66,7 +66,13 @@ export default ({
   const defaultLinks = [
     <NavLinks key={1}>
       {" "}
-      <NavLink href="/#">About</NavLink>
+      <NavLink>
+        {location.pathname === "/" || location.pathname === "/contato" ? (
+          <Link to={"/quemsomos"}>Quem somos</Link>
+        ) : (
+          <Link to={"/contato"}>Contato</Link>
+        )}
+      </NavLink>
       <NavLink href="/#">Blog</NavLink>
       <NavLink href="/#">Pricing</NavLink>
       <NavLink>
