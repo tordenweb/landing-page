@@ -54,8 +54,8 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
 
 export default ({
   cards = null,
-  heading = "Nosso escritorio",
-  subheading = "Localizacao",
+  heading = "Nosso Escritório",
+  subheading = "Localização",
   description = "Torden Web está aqui para ajudar a sua empresa a alcançar novos patamares com soluções tecnológicas inovadoras. Entre em contato e descubra como podemos transformar o seu negócio.",
 }) => {
   const defaultCards = [

@@ -47,10 +47,7 @@ export default ({
     </>
   ),
   description = "Na Torden Web, acreditamos que qualidade é a base para a entrega de soluções realmente eficazes. Por isso, nossas soluções são desenvolvidas com foco em alta performance, garantindo resultados rápidos, eficientes e sustentáveis para o seu negócio. Com um time de especialistas e tecnologias de ponta, asseguramos que cada projeto atenda aos mais altos padrões de qualidade, oferecendo um sistema robusto, seguro e totalmente alinhado às necessidades do seu negócio. Ao escolher a Torden Web, você está optando por excelência, inovação e resultados tangíveis que fazem a diferença.",
-  primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,
-  buttonRounded = true,
   imageRounded = true,
   imageBorder = false,
   imageShadow = false,

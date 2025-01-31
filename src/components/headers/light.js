@@ -10,16 +10,16 @@ import logo from "../../images/logo.svg";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+//import { useLocation } from "react-router-dom";
 
 const Header = tw.header`
   flex justify-between items-center
-  max-w-screen-xl mx-auto
+  max-w-screen-xl mx-auto mt-8
 `;
 
-export const NavLinks = tw.div`inline-block`;
+export const NavLinks = tw.div`flex justify-between`; // a. inline-block
 
-export const NavLink = tw.a`
+export const NavLink = tw.div`
   text-lg my-2 lg:text-sm lg:mx-6 lg:my-0
   font-semibold text-blue-800 tracking-wide transition duration-300
   pb-1 border-b-2 border-transparent hover:border-blue-500 hocus:text-blue-500
@@ -33,7 +33,7 @@ export const PrimaryLink = tw(NavLink)`
 `;
 
 export const LogoLink = styled(NavLink)`
-  ${tw`flex items-center font-black text-blue-500 hocus:text-blue-800  border-b-0 text-3xl! ml-0!`};
+  ${tw`flex items-center font-black text-blue-100 hocus:text-blue-800  border-b-0 text-3xl! ml-0!`};
 
   img {
     ${tw`w-10 mr-3`}
@@ -56,31 +56,20 @@ export const DesktopNavLinks = tw.nav`
 `;
 
 export default ({
-  roundedHeaderButton = false,
   logoLink,
   links,
   className,
   collapseBreakpointClass = "lg",
 }) => {
-  const location = useLocation();
+  //const location = useLocation();
   const defaultLinks = [
     <NavLinks key={1}>
       {" "}
       <NavLink>
-        {location.pathname === "/" || location.pathname === "/contato" ? (
-          <Link to={"/quemsomos"}>Quem somos</Link>
-        ) : (
-          <Link to={"/contato"}>Contato</Link>
-        )}
+        <Link to={"/saibamais"}>Saiba mais</Link>
       </NavLink>
-      <NavLink href="/#">Blog</NavLink>
-      <NavLink href="/#">Pricing</NavLink>
       <NavLink>
-        {location.pathname === "/" ? (
-          <Link to={"/contato"}>Contato</Link>
-        ) : (
-          <Link to={"/"}>Home</Link>
-        )}
+        <Link to={"/contato"}>Contato</Link>
       </NavLink>
     </NavLinks>,
   ];
@@ -154,3 +143,16 @@ const collapseBreakPointCssMap = {
     mobileNavLinksContainer: tw`lg:hidden`,
   },
 };
+
+/* {location.pathname === "/" || location.pathname === "/contato" ? (
+          <Link to={"/saibamais"}>Saiba mais</Link>
+        ) : (
+          <Link to={"/contato"}>Contato</Link>
+        )}
+      </NavLink>
+      <NavLink>
+        {location.pathname === "/" ? (
+          <Link to={"/contato"}>Contato</Link>
+        ) : (
+          <Link to={"/"}>Home</Link>
+        )} */
