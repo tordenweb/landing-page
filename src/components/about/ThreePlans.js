@@ -16,7 +16,7 @@ const Description = tw(SectionDescription)`w-full text-center`;
 export default ({
   subheading = "Quem somos",
   heading = "Flexible Plans.",
-  description = "A Torden Web é uma empresa inovadora no ramo da tecnologia, especializada em soluções digitais que atendem às necessidades do mercado atual. Com uma equipe de especialistas em desenvolvimento de software, design de interfaces e otimização de processos. Nossa missão é oferecer soluções tecnológicas de alta performance que transformam negócios e facilitam a vida de nossos clientes, proporcionando uma experiência única em todos os pontos de contato. Queremos ser o parceiro confiável para empresas que buscam inovação, eficiência e segurança em seus processos digitais.",
+  description = "Somos uma empresa inovadora no ramo da tecnologia, especializada em soluções digitais que atendem às necessidades do mercado atual. Com uma equipe de especialistas em desenvolvimento de software, design de interfaces e otimização de processos. Nossa missão é oferecer soluções tecnológicas de alta performance que transformam negócios e facilitam a vida de nossos clientes, proporcionando uma experiência única em todos os pontos de contato. Queremos ser o parceiro confiável para empresas que buscam inovação, eficiência e segurança em seus processos digitais.",
 }) => {
   return (
     <Container>

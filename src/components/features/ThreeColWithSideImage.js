@@ -84,25 +84,25 @@ export default ({
       imageSrc: CustomizeIconImage,
       title: "Personalização Completa",
       description:
-        "A Torden Web oferece soluções totalmente adaptáveis às necessidades específicas do seu negócio, permitindo que você configure o sistema conforme as particularidades da sua operação.",
+        "A Torden Web oferece soluções totalmente adaptáveis às necessidades específicas do seu negócio, permitindo que você use nossos sofwares conforme as particularidades da sua operação.",
     },
     {
       imageSrc: ReliableIconImage,
       title: "Confiabilidade",
       description:
-        "Nossa plataforma é robusta e estável, garantindo que sua empresa opere sem interrupções, com alta disponibilidade e desempenho contínuo, sempre quando você mais precisar.",
+        "Nossos sites e softwares são robustos e estáveis, garantindo que sua empresa opere sem interrupções, com alta disponibilidade e desempenho contínuo, sempre quando você mais precisar.",
     },
     {
       imageSrc: FastIconImage,
       title: "Velocidade",
       description:
-        "Com tecnologia de ponta, o software da Torden Web oferece uma experiência rápida e eficiente, otimizada para agilizar os processos da sua empresa e aumentar a produtividade.",
+        "Com tecnologia de ponta, os softwares e sites produzidos pela Torden Web oferecem uma experiência rápida e eficiente, otimizada para agilizar os processos da sua empresa e aumentar a produtividade.",
     },
     {
       imageSrc: SimpleIconImage,
       title: "Facilidade de Uso",
       description:
-        "O sistema foi desenvolvido com uma interface intuitiva, simples e fácil de usar, para que sua equipe possa se adaptar rapidamente e começar a aproveitar os benefícios sem complicações.",
+        "O sites e softwares são desenvolvidos com uma interface intuitiva, simples e fácil de usar, para que sua empresa possa se adaptar rapidamente e começar a aproveitar os benefícios sem complicações.",
     },
   ];
 

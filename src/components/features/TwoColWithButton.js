@@ -46,7 +46,7 @@ export default ({
       <p tw="text-blue-500 text-4xl">O Padrão de Qualidade da Torden Web</p>
     </>
   ),
-  description = "Na Torden Web, acreditamos que qualidade é a base para a entrega de soluções realmente eficazes. Por isso, nossas soluções são desenvolvidas com foco em alta performance, garantindo resultados rápidos, eficientes e sustentáveis para o seu negócio. Com um time de especialistas e tecnologias de ponta, asseguramos que cada projeto atenda aos mais altos padrões de qualidade, oferecendo um sistema robusto, seguro e totalmente alinhado às necessidades do seu negócio. Ao escolher a Torden Web, você está optando por excelência, inovação e resultados tangíveis que fazem a diferença.",
+  description = "Na Torden Web, acreditamos que qualidade é a base para a entrega de soluções realmente eficazes. Por isso, nossas soluções são desenvolvidas com foco em alta performance, garantindo resultados rápidos, eficientes e sustentáveis para o seu negócio. Com um time de especialistas e tecnologias de ponta, asseguramos que cada projeto atenda aos mais altos padrões de qualidade, seguro e totalmente alinhado às necessidades do seu negócio. Ao escolher a Torden Web, você está optando por excelência, inovação e resultados tangíveis que fazem a diferença.",
   imageSrc = TeamIllustrationSrc,
   imageRounded = true,
   imageBorder = false,

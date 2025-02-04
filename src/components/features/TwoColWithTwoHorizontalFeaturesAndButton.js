@@ -65,7 +65,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Na Torden Web, nossos valores são fundamentais para a criação de soluções inovadoras e eficazes. Acreditamos que a integridade deve nortear todas as nossas ações, com transparência, ética e respeito por nossos clientes e parceiros. A inovação está no centro de tudo o que fazemos, buscando constantemente maneiras novas e melhores de resolver problemas e otimizar processos. E, acima de tudo, buscamos a excelência em cada projeto, desde o desenvolvimento até o suporte, para garantir que nossos clientes obtenham resultados excepcionais e duradouros. Esses valores são a base do nosso trabalho e o que nos impulsiona a oferecer sempre o melhor em soluções tecnológicas.",
+  description = "Nossos valores são fundamentais para a criação de soluções inovadoras e eficazes. Acreditamos que a integridade deve nortear todas as nossas ações, com transparência, ética e respeito por nossos clientes e parceiros. A inovação está no centro de tudo o que fazemos, buscando constantemente maneiras novas e melhores de resolver problemas e otimizar processos. E, acima de tudo, buscamos a excelência em cada projeto, desde o desenvolvimento até o suporte, para garantir que nossos clientes obtenham resultados excepcionais e duradouros. Esses valores são a base do nosso trabalho e o que nos impulsiona a oferecer sempre o melhor em soluções tecnológicas.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,

@@ -51,33 +51,31 @@ export default ({
   description = "Somos uma equipe apaixonada de realizadores, que trabalham comprometidos em ajudar sua empresa a ter sucesso.",
   cards = [
     {
-      imageSrc:
-        "https://images.unsplash.com/photo-1531384441138-2736e62e0919?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D=80",
-      position: "Founder",
-      name: "Daniel Lavieri",
+      imageSrc: "https://github.com/micheldpcarlos.png",
+      position: "Fundador/Desenvolvedor",
+      name: "Michel Carlos",
       links: [
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "https://github.com/micheldpcarlos",
           icon: GithubIcon,
         },
       ],
     },
     {
-      imageSrc:
-        "https://images.unsplash.com/photo-1652471943570-f3590a4e52ed?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      position: "Sr. Designer",
-      name: "Christopher Laurence",
+      imageSrc: "https://github.com/alanrdrsantos.png",
+      position: "Desenvolvedor",
+      name: "Alan Rodrigues",
       links: [
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/alan-rodrigues-9a8219238/",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "https://github.com/alanrdrsantos",
           icon: GithubIcon,
         },
       ],

@@ -12,7 +12,7 @@ import Testimonial from "components/testimonials/TwoColumnWithImageAndRating.js"
 import FAQ from "components/faqs/SingleCol.js";
 import GetStarted from "components/cta/GetStarted";
 import Footer from "components/footers/FiveColumnWithBackground.js";
-import heroScreenshotImageSrc from "images/hero-screenshot-1.png";
+import heroScreenshotImageSrc from "images/music-layout.jpg";
 import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
@@ -95,21 +95,21 @@ export default () => {
               stars: 5,
               profileImageSrc:
                 "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
-              heading: "Experiência do Usuário Incrível",
+              heading: "Além das Expectativas",
               quote:
-                "Desde que comecei a usar este serviço, minha experiência tem sido simplesmente incrível! A interface é super intuitiva, fácil de navegar, e tudo funciona de maneira muito fluida. A cada interação, percebo o quanto a equipe se preocupa em oferecer uma experiência excepcional. Realmente fez a diferença no meu dia a dia e me sinto mais produtiva. Recomendo a todos que buscam uma experiência de usuário sem complicações!",
-              customerName: "Charlotte Hale",
-              customerTitle: "Diretora, Coca-Cola Company.",
+                "Quando procuramos a Torden Web para desenvolver um sistema interno de gestão, estávamos enfrentando vários desafios com a nossa operação. A equipe da Torden Web foi além das expectativas, criando uma solução sob medida que otimizou todos os nossos processos. A plataforma é intuitiva, rápida e se integrou perfeitamente com as ferramentas que já utilizávamos. O suporte contínuo tem sido excelente, e sentimos que sempre podemos contar com eles para ajustes e melhorias. Sem dúvida, a Torden Web foi fundamental para o sucesso da nossa transformação digital.",
+              customerName: "Fernanda Costa",
+              customerTitle: "Diretora de Operações da LuminaTech Ltda.",
             },
             {
               stars: 5,
               profileImageSrc:
                 "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-              heading: "Tranformou completamente nossas vidas!",
+              heading: "Experiência do Usuário Fantástica",
               quote:
-                "A Torden Web transformou completamente a maneira como gerenciamos a nossa empresa. A interface é simples, mas poderosa, e a integração com outras ferramentas que usamos no dia a dia fez toda a diferença. A equipe de suporte sempre foi extremamente ágil e eficiente em resolver nossas dúvidas. Além disso, a estabilidade e a performance do sistema são impressionantes. Sem dúvida, uma das melhores soluções de tecnologia que adotamos nos últimos anos!",
-              customerName: "Adam Cuppy",
-              customerTitle: "Gerente Fundador, Heinekein Brasil Company.",
+                "Escolhemos a Torden Web para desenvolver nossa plataforma de e-commerce e não poderíamos estar mais satisfeitos com o resultado. A equipe foi extremamente atenciosa durante todo o processo, entendendo exatamente nossas necessidades e oferecendo soluções inovadoras. O site ficou não apenas funcional, mas com um design impecável e uma experiência de usuário fantástica. Desde o lançamento, vimos um aumento significativo nas vendas e na satisfação dos nossos clientes. A Torden Web se tornou um parceiro estratégico essencial para o nosso crescimento digital. Recomendamos com certeza!",
+              customerName: "Lucas Almeida,",
+              customerTitle: "CEO da Trendify.",
             },
           ]}
         />
@@ -123,39 +123,39 @@ export default () => {
           faqs={[
             {
               question:
-                "O que é o software da Torden Web e como ele pode beneficiar minha empresa ?",
+                "O que faz a Torden Web se destacar no desenvolvimento de sites e software ?",
               answer:
-                "O software da Torden Web é uma solução tecnológica personalizada para empresas que buscam melhorar a fluidez e a eficiência de seus sistemas internos. Ele é projetado para otimizar processos, integrar diferentes áreas e garantir que sua equipe trabalhe de forma mais ágil e conectada, promovendo aumento de produtividade e redução de erros.",
+                "Nos destacamos pela nossa capacidade de entregar soluções personalizadas, com foco nas necessidades específicas de cada cliente. Nossa equipe combina expertise técnica com uma visão estratégica de negócios, garantindo que os sites e softwares que criamos não sejam apenas esteticamente atrativos, mas também funcionais e eficientes, gerando resultados reais para nossos clientes.",
             },
             {
               question:
-                "Quais problemas específicos o software da Torden Web resolve para minha empresa ?",
+                "Quanto tempo leva para criar um site ou software sob medida ?",
               answer:
-                "Nosso software resolve problemas comuns como a falta de integração entre sistemas, processos manuais e ineficientes, e dificuldade na comunicação entre departamentos. Ele automatiza tarefas repetitivas, melhora o fluxo de informações e proporciona uma gestão mais centralizada e transparente.",
+                "O tempo de desenvolvimento depende da complexidade do projeto. Para sites mais simples, o prazo pode variar de 4 a 6 semanas. Já para projetos mais complexos, como sistemas corporativos ou e-commerces personalizados, o tempo pode variar entre 2 a 6 meses, dependendo da especificidade das funcionalidades e integrações. Sempre fazemos questão de alinhar expectativas de tempo e orçamento com o cliente desde o início.",
             },
             {
               question:
-                "O software da Torden Web é compatível com outros sistemas e ferramentas que já usamos ?",
+                "Quais são as principais vantagens de escolher uma solução personalizada em vez de uma plataforma pronta (como Wix, Shopify, etc.) ?",
               answer:
-                "Sim! Nosso software foi desenvolvido para ser flexível e altamente compatível com uma variedade de sistemas já utilizados em empresas. A Torden Web prioriza a integração fácil com as ferramentas existentes, para que a transição seja simples e a adaptação dos colaboradores seja rápida.",
+                "Soluções personalizadas oferecem uma flexibilidade que plataformas prontas não conseguem igualar. Com um site ou software sob medida, você tem controle total sobre funcionalidades, design e escalabilidade. Além disso, podemos criar uma solução específica para os processos e objetivos do seu negócio, sem limitações impostas por templates. Isso resulta em uma experiência única para seus usuários e, em muitos casos, maior desempenho a longo prazo.",
             },
             {
               question:
-                "Como o software da Torden Web pode melhorar a comunicação dentro da minha equipe?",
+                "Vocês oferecem integração com outras plataformas e sistemas ?",
               answer:
-                "O software facilita a comunicação interna ao centralizar informações importantes e oferecer funcionalidades como mensagens, notificações e atualizações em tempo real. Isso assegura que todos os membros da equipe estejam alinhados e informados, o que melhora a colaboração e reduz a chance de falhas de comunicação.",
+                "Sim, oferecemos soluções de integração completas. Podemos integrar o site ou software desenvolvido com outros sistemas existentes, como CRMs, ERPs, plataformas de pagamento, redes sociais e ferramentas de marketing digital. Isso permite que nossos clientes aproveitem ao máximo suas operações e otimizem processos, criando uma solução integrada e eficiente.",
             },
             {
               question:
-                "O Torden Web oferece suporte para personalização do software de acordo com as necessidades da minha empresa ?",
+                "Como posso saber se o desenvolvimento do meu site ou software está no caminho certo durante o processo ?",
               answer:
-                "Sim, nosso software é totalmente personalizável. A Torden Web entende que cada empresa tem necessidades únicas, então oferecemos soluções ajustáveis para atender às particularidades de seu negócio, garantindo que o sistema se encaixe perfeitamente nas suas operações.",
+                "Adotamos uma abordagem transparente e colaborativa. Durante o desenvolvimento, mantemos os clientes atualizados com relatórios de progresso e demos periódicas, para que possam acompanhar o andamento do projeto. Além disso, realizamos sessões de feedback durante as fases-chave, permitindo ajustes antes da entrega final, garantindo que o produto atenda às expectativas e necessidades do cliente.",
             },
             {
               question:
-                "Quais são os benefícios de adotar o software da Torden Web em termos de produtividade e resultados ?",
+                "O que acontece se eu precisar de alterações ou novos recursos no meu site ou software após a entrega ?",
               answer:
-                "Ao automatizar processos e integrar diferentes áreas da empresa, nosso software reduz o tempo gasto em tarefas manuais e aumenta a precisão das operações. Isso resulta em maior produtividade, menores custos operacionais e, consequentemente, melhores resultados para sua empresa a curto e longo prazo.",
+                "Oferecemos um suporte contínuo após a entrega do projeto. Se precisar de alterações ou novos recursos, temos pacotes de manutenção flexíveis para atender a essas demandas. Combinamos as necessidades de novos desenvolvimentos com a evolução do seu negócio, criando atualizações e implementações que continuam alinhadas com seus objetivos. Nossa equipe está sempre disponível para ajustar e otimizar o produto conforme sua empresa cresce.",
             },
           ]}
         />

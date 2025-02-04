@@ -46,15 +46,15 @@ export default () => {
             <Actions>
               <Subheading>A Solução Está Na Palma Da Sua Mão</Subheading>
               <Paragraph>
-                A Torden Web é uma empresa especializada no desenvolvimento de
-                softwares personalizados, criados para atender exatamente às
-                necessidades de cada cliente. Com uma abordagem centrada no
-                cliente, a Torden Web trabalha lado a lado com as empresas,
-                oferecendo soluções tecnológicas sob medida que tornam processos
-                mais ágeis e eficientes. A missão da empresa é proporcionar
-                ferramentas inovadoras e práticas, sempre acessíveis e fáceis de
-                usar, para que os clientes possam ter o controle total de suas
-                operações na palma de suas mãos.
+                Acreditamos que a solução para os desafios do seu negócio está
+                ao seu alcance, literalmente, nas palmas da sua mão. Com nossas
+                soluções digitais inovadoras, oferecemos a liberdade e a
+                agilidade que sua empresa precisa para se destacar no mercado.
+                Seja através de software sob medida ou um site totalmente
+                otimizado, garantimos que a tecnologia esteja sempre a seu
+                favor, simplificando processos e potencializando resultados tudo
+                com a praticidade que você merece. A solução está aqui, e ela
+                está pronta para transformar o seu futuro digital.
               </Paragraph>
             </Actions>
           </LeftColumn>

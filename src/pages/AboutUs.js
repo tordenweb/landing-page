@@ -25,17 +25,21 @@ export default () => {
         <MainFeature1
           subheading={<Subheading>Sobre a Torden Web</Subheading>}
           heading="Onde a Criatividade Encontra a Tecnologia"
-          description="A Torden Web é uma empresa de design moderna, especializada em criar experiências digitais únicas e impactantes. Nosso time de designers e desenvolvedores trabalha em parceria com os clientes para transformar ideias em projetos personalizados, desde sites responsivos até soluções completas de branding. Acreditamos que um bom design vai além da estética, sendo essencial para conectar empresas ao seu público de forma funcional e emocional. Estamos sempre atualizados com as últimas tendências para entregar resultados inovadores e de impacto."
-          buttonRounded={false}
-          primaryButtonText="See Portfolio"
+          description="Somos uma empresa especializada no desenvolvimento de
+                softwares e sites personalizados, criados para atender exatamente às
+                necessidades de cada cliente. Com uma abordagem centrada no
+                cliente, a Torden Web trabalha lado a lado com as empresas,
+                oferecendo soluções tecnológicas sob medida que tornam processos
+                mais ágeis e eficientes. A missão da empresa é proporcionar
+                ferramentas inovadoras e práticas, sempre acessíveis e fáceis de
+                usar, para que os clientes possam ter o controle total de suas
+                operações na palma de suas mãos. "
           imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
         />
         <MainFeature1
           subheading={<Subheading>Nossa Visão</Subheading>}
           heading="Desafiando o Comum, Criando o Extraordinário."
           description="Na Torden Web, temos como objetivo revolucionar o setor de tecnologia com soluções digitais inovadoras e disruptivas. Acreditamos que a verdadeira transformação vem de ir além do convencional, oferecendo experiências que unem design de ponta, funcionalidade e inovação. Estamos sempre em busca das últimas tendências e tecnologias para entregar projetos que não apenas atendem às necessidades dos nossos clientes, mas também os posicionam como líderes em seus mercados. Nossa missão é quebrar barreiras, criar impacto e moldar o futuro digital."
-          buttonRounded={false}
-          primaryButtonText="Contact Us"
           imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
           textOnLeft={false}
         />

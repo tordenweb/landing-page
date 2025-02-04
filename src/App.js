@@ -10,11 +10,11 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
-import { useLayoutEffect } from "react";
+import { useEffect } from "react";
 
-const Wrapper = ({ children }) => {
+const ScrollToTop = ({ children }) => {
   const location = useLocation();
-  useLayoutEffect(() => {
+  useEffect(() => {
     document.documentElement.scrollTo(0, 0);
   }, [location.pathname]);
   return children;
@@ -25,13 +25,13 @@ export default function App() {
     <>
       <GlobalStyles />
       <Router>
-        <Wrapper>
+        <ScrollToTop>
           <Routes>
             <Route path="/" element={<LandingPage />}></Route>
             <Route path="/contato" element={<ContactUs />}></Route>
             <Route path="/saibamais" element={<AboutUs />}></Route>
           </Routes>
-        </Wrapper>
+        </ScrollToTop>
       </Router>
     </>
   );
