@@ -12,8 +12,8 @@ import Testimonial from "components/testimonials/TwoColumnWithImageAndRating.js"
 import FAQ from "components/faqs/SingleCol.js";
 import GetStarted from "components/cta/GetStarted";
 import Footer from "components/footers/FiveColumnWithBackground.js";
-import heroScreenshotImageSrc from "images/music-layout.jpg";
-import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
+import heroScreenshotImageSrc from "images/desktop-work.jpeg";
+import prototypeIllustrationImageSrc from "images/software.png";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
 

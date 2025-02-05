@@ -30,7 +30,7 @@ const DecoratorBlob2 = tw(
   SvgDecoratorBlob1
 )`absolute top-0 right-0 w-80 h-80 transform  translate-x-20 -translate-y-64 text-blue-800 opacity-50`;
 export default ({
-  text = "Entre em contato com a Torden Web e descubra como podemos transformar seu sistema!",
+  text = "Entre em contato com a Torden Web e descubra como podemos transformar sua empresa!",
   primaryLinkText = "Clique Aqui",
   pushDownFooter = true,
 }) => {

@@ -67,7 +67,7 @@ export default ({
     },
     {
       imageSrc: "https://github.com/alanrdrsantos.png",
-      position: "Desenvolvedor",
+      position: "Desenvolvedor Front-End",
       name: "Alan Rodrigues",
       links: [
         {
@@ -83,8 +83,8 @@ export default ({
     {
       imageSrc:
         "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Jr. Designer",
-      name: "Silvester Wize",
+      position: "Designer",
+      name: "Alexandre Campos",
       links: [
         {
           url: "https://linkedin.com",
@@ -99,8 +99,8 @@ export default ({
     {
       imageSrc:
         "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Lead Developer",
-      name: "Himali Turn",
+      position: "Desenvoldedora",
+      name: "Amanda Nunes",
       links: [
         {
           url: "https://linkedin.com",
@@ -115,8 +115,8 @@ export default ({
     {
       imageSrc:
         "https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Sr. Developer",
-      name: "Troye Sivan",
+      position: "Desenvolvedor",
+      name: "Thiago Santos",
       links: [
         {
           url: "https://linkedin.com",
@@ -131,8 +131,8 @@ export default ({
     {
       imageSrc:
         "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Quality Assurance",
-      name: "Holo Wo",
+      position: "Desenvolvedora Back-End",
+      name: "Danielle Cruz",
       links: [
         {
           url: "https://linkedin.com",
@@ -163,7 +163,13 @@ export default ({
                 <span className="name">{card.name}</span>
                 <CardLinks>
                   {card.links.map((link, linkIndex) => (
-                    <a key={linkIndex} className="link" href={link.url}>
+                    <a
+                      key={linkIndex}
+                      className="link"
+                      href={link.url}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       <link.icon className="icon" />
                     </a>
                   ))}

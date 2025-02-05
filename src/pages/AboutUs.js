@@ -12,6 +12,7 @@ import Features from "components/features/ThreeColSimple.js";
 // import Features from "components/features/ThreeColWithSideImage.js";
 import TeamCardGrid from "components/cards/ProfileThreeColGrid.js";
 
+import TecnologicImge from "images/tecnologia.jpg";
 import SupportIconImage from "images/support-icon.svg";
 import ShieldIconImage from "images/shield-icon.svg";
 import CustomerLoveIconImage from "images/simple-icon.svg";
@@ -40,7 +41,7 @@ export default () => {
           subheading={<Subheading>Nossa Visão</Subheading>}
           heading="Desafiando o Comum, Criando o Extraordinário."
           description="Na Torden Web, temos como objetivo revolucionar o setor de tecnologia com soluções digitais inovadoras e disruptivas. Acreditamos que a verdadeira transformação vem de ir além do convencional, oferecendo experiências que unem design de ponta, funcionalidade e inovação. Estamos sempre em busca das últimas tendências e tecnologias para entregar projetos que não apenas atendem às necessidades dos nossos clientes, mas também os posicionam como líderes em seus mercados. Nossa missão é quebrar barreiras, criar impacto e moldar o futuro digital."
-          imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
+          imageSrc={TecnologicImge}
           textOnLeft={false}
         />
         <Features
