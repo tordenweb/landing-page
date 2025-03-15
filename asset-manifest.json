@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "./static/js/main.9c3096ff.js",
+    "static/media/tecnologia.jpg": "./static/media/tecnologia.c4757b4163f202aacf13.jpg",
+    "static/media/desktophome3min2.jpeg": "./static/media/desktophome3min2.a374adcfab26b6c7d3bc.jpeg",
+    "static/media/solution.webp": "./static/media/solution.69908bbf6f0be17e0b7c.webp",
+    "static/media/email-2.jpg": "./static/media/email-2.d75cf40a5dace388c79a.jpg",
+    "static/media/michel.jpeg": "./static/media/michel.1f2061807969bf619d03.jpeg",
+    "static/media/valores.jpeg": "./static/media/valores.d97f846d708def9dbc61.jpeg",
+    "static/media/dot-pattern.svg": "./static/media/dot-pattern.f7fca8460f1669d413d61810b890e1f9.svg",
+    "index.html": "./index.html",
+    "static/media/github-icon.svg": "./static/media/github-icon.2012dbb259c77fd6aea5e21004ac0818.svg",
+    "static/media/cpu.svg": "./static/media/cpu.9355ffe30b491c3378a7e197faa4ed54.svg",
+    "static/media/svg-decorator-blob-3.svg": "./static/media/svg-decorator-blob-3.81d718d5b4e3dd0a6f97fb6a6262f584.svg",
+    "static/media/svg-decorator-blob-9.svg": "./static/media/svg-decorator-blob-9.8e136b6ba18ab63d97e6f62a68063192.svg",
+    "static/media/support-icon.svg": "./static/media/support-icon.2de59c4c6460d0a7d3e1c8787f2cd3c6.svg",
+    "static/media/simple-icon.svg": "./static/media/simple-icon.c3e6d6f1a75949839a37df7409a6ffc4.svg",
+    "static/media/customize-icon.svg": "./static/media/customize-icon.9131ae6da5ed03eb1dad2b0b336377a6.svg",
+    "static/media/svg-decorator-blob-1.svg": "./static/media/svg-decorator-blob-1.882b52f533a5f881fbac3178df042bb0.svg",
+    "static/media/shield-icon.svg": "./static/media/shield-icon.fb668f8317b2eaf3d2db700e4e0a7346.svg",
+    "static/media/svg-decorator-blob-8.svg": "./static/media/svg-decorator-blob-8.46d53f6b637ec792eff69fa98170e560.svg",
+    "static/media/svg-decorator-blob-7.svg": "./static/media/svg-decorator-blob-7.04fa60c9416090a003233f93c9de14b1.svg",
+    "static/media/arrow-right-icon.svg": "./static/media/arrow-right-icon.c4ea6a92d136f418f96b1c9e930f56cc.svg",
+    "static/media/menu.svg": "./static/media/menu.644fa295fdd5f662e642ba6bfb084239.svg",
+    "static/media/briefcase.svg": "./static/media/briefcase.21248a068c385cec74542746ea8c5e8c.svg",
+    "static/media/dollar-sign.svg": "./static/media/dollar-sign.8d9a6f938731fde21207ac6851ae5fcb.svg",
+    "static/media/reliable-icon.svg": "./static/media/reliable-icon.9b193f413000271a391fcabfe249e866.svg",
+    "static/media/check-circle.svg": "./static/media/check-circle.fc206c2b3a24c4ad59aca1c8267ee8d5.svg",
+    "static/media/x.svg": "./static/media/x.6c9a4ba71a333be7b021fc6da39d864c.svg",
+    "static/media/chevron-down.svg": "./static/media/chevron-down.c3e123cf78bc368a192f3e2dee97daba.svg",
+    "static/media/fast-icon.svg": "./static/media/fast-icon.40862acab1ec462ceff73e9c5f29194b.svg",
+    "static/media/linkedin-icon.svg": "./static/media/linkedin-icon.962df6cec61e5366889690a28a03b953.svg",
+    "main.9c3096ff.js.map": "./static/js/main.9c3096ff.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9c3096ff.js"
+  ]
+}
