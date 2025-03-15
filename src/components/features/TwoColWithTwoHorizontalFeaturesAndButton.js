@@ -2,11 +2,8 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import {
-  SectionHeading,
-  Subheading as SubheadingBase,
-} from "components/misc/Headings.js";
-import TeamIllustrationSrc from "images/team-illustration-2.svg";
+import { SectionHeading } from "components/misc/Headings.js";
+import TeamIllustrationSrc from "images/valores.jpeg";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
@@ -23,9 +20,9 @@ const TextColumn = styled(Column)((props) => [
 ]);
 
 const Image = styled.img((props) => [
-  props.imageRounded && tw`rounded`,
+  props.imageRounded && tw`rounded-2xl`,
   props.imageBorder && tw`border`,
-  props.imageShadow && tw`shadow`,
+  props.imageShadow && tw`shadow-lg shadow-gray-600/15`,
 ]);
 
 const DecoratorBlob = tw(
@@ -34,7 +31,6 @@ const DecoratorBlob = tw(
 
 const TextContent = tw.div`lg:py-8 text-center md:text-left`;
 
-const Subheading = tw(SubheadingBase)`text-center md:text-left`;
 const Heading = tw(
   SectionHeading
 )`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
@@ -59,20 +55,16 @@ const FeatureHeading = tw.div`ml-3 font-bold text-xl`;
 const FeatureDescription = tw.div`mt-4 text-center md:text-left text-gray-600 leading-relaxed`;
 
 export default ({
-  subheading = "Our Expertise",
   heading = (
     <>
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Nossos valores são fundamentais para a criação de soluções inovadoras e eficazes. Acreditamos que a integridade deve nortear todas as nossas ações, com transparência, ética e respeito por nossos clientes e parceiros. A inovação está no centro de tudo o que fazemos, buscando constantemente maneiras novas e melhores de resolver problemas e otimizar processos. E, acima de tudo, buscamos a excelência em cada projeto, desde o desenvolvimento até o suporte, para garantir que nossos clientes obtenham resultados excepcionais e duradouros. Esses valores são a base do nosso trabalho e o que nos impulsiona a oferecer sempre o melhor em soluções tecnológicas.",
-  primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
+  description = "Na Torden Web, valorizamos a integridade, transparência e respeito em todas as nossas ações. A inovação está no coração de nosso trabalho, sempre buscando soluções mais eficientes e otimizadas. Comprometidos com a excelência, garantimos resultados excepcionais e duradouros em cada projeto. Esses valores são o que nos impulsiona a oferecer as melhores soluções tecnológicas.",
   imageSrc = TeamIllustrationSrc,
-  buttonRounded = true,
   imageRounded = true,
   imageBorder = false,
-  imageShadow = false,
+  imageShadow = true,
   showDecoratorBlob = false,
   textOnLeft = true,
   features = null,
@@ -82,17 +74,17 @@ export default ({
 }) => {
   const defaultFeatures = [
     {
-      Icon: BriefcaseIcon,
-      title: "Professionalism",
+      Icon: MoneyIcon,
+      title: "Preços acessíveis",
       description:
-        "We have the best professional marketing people across the globe just to work with you.",
-      iconContainerCss: tw`bg-teal-300 text-teal-800`,
+        "Oferecemos soluções que combinam qualidade e eficiência, permitindo que empresas de todos os tamanhos acessem tecnologias avançadas sem comprometer o orçamento.",
+      iconContainerCss: tw`bg-green-300 text-green-800`,
     },
     {
-      Icon: MoneyIcon,
-      title: "Affordable",
+      Icon: BriefcaseIcon,
+      title: "Profissionalismo",
       description:
-        "We promise to offer you the best rate we can - at par with the industry standard.",
+        "Nosso compromisso é oferecer soluções de alta qualidade com ética, dedicação e competência, assegurando a satisfação e confiança de nossos clientes.",
       iconContainerCss: tw`bg-red-300 text-red-800`,
     },
   ];
@@ -113,7 +105,6 @@ export default ({
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
-            <Subheading>{subheading}</Subheading>
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
             <Features>

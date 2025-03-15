@@ -3,10 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 //eslint-disable-next-line
 import { css } from "styled-components/macro";
-import {
-  SectionHeading,
-  Subheading as SubheadingBase,
-} from "components/misc/Headings.js";
+import { SectionHeading } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
 
 import defaultCardImage from "images/shield-icon.svg";
@@ -25,7 +22,7 @@ const Container = tw.div`relative`;
 const ThreeColumnContainer = styled.div`
   ${tw`flex flex-col items-center md:items-stretch md:flex-row flex-wrap md:justify-center max-w-screen-lg mx-auto py-20 md:py-24`}
 `;
-const Subheading = tw(SubheadingBase)`mb-4`;
+
 const Heading = tw(SectionHeading)`w-full`;
 const Description = tw(SectionDescription)`w-full text-center`;
 
@@ -64,7 +61,6 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
 export default ({
   cards = null,
   heading = "Amazing Features",
-  subheading = "Features",
   description = "Na Torden Web, oferecemos soluções personalizadas que se adaptam às necessidades do seu negócio. Nossos recursos avançados ajudam a otimizar processos, aumentar a produtividade e trazer resultados reais para sua empresa.",
 }) => {
   const defaultCards = [
@@ -76,9 +72,9 @@ export default ({
     },
     {
       imageSrc: SupportIconImage,
-      title: "Suporte 24/7",
+      title: "Suporte",
       description:
-        "Nosso time de suporte está disponível a qualquer hora do dia, todos os dias da semana, para oferecer assistência e resolver qualquer dúvida ou problema que possa surgir, sem que você precise se preocupar com o horário.",
+        "Nosso time de suporte está disponível para oferecer assistência e resolver qualquer dúvida ou problema que possa surgir.",
     },
     {
       imageSrc: CustomizeIconImage,
@@ -111,7 +107,6 @@ export default ({
   return (
     <Container>
       <ThreeColumnContainer>
-        {subheading && <Subheading>{subheading}</Subheading>}
         <Heading>{heading}</Heading>
         {description && <Description>{description}</Description>}
         <VerticalSpacer />

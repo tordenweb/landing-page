@@ -47,24 +47,38 @@ export default ({
   description = "E nós temos respostas para todas elas",
   faqs = [
     {
-      question: "Is lunch provided free of cost ?",
+      question:
+        "O que faz a Torden Web se destacar no desenvolvimento de sites e software ?",
       answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system.",
+        "Nos destacamos pela nossa capacidade de entregar soluções personalizadas, com foco nas necessidades específicas de cada cliente. Nossa equipe combina expertise técnica com uma visão estratégica de negócios, garantindo que os sites e softwares que criamos não sejam apenas esteticamente atrativos, mas também funcionais e eficientes, gerando resultados reais para nossos clientes.",
     },
     {
-      question: "Do you have 2 Bedroom suites ?",
+      question: "Quanto tempo leva para criar um site ou software sob medida ?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "O tempo de desenvolvimento depende da complexidade do projeto. Para sites mais simples, o prazo pode variar de 4 a 6 semanas. Já para projetos mais complexos, como sistemas corporativos ou e-commerces personalizados, o tempo pode variar entre 2 a 6 meses, dependendo da especificidade das funcionalidades e integrações. Sempre fazemos questão de alinhar expectativas de tempo e orçamento com o cliente desde o início.",
     },
     {
-      question: "Are Wi-Fi costs included in the price ?",
+      question:
+        "Quais são as principais vantagens de escolher uma solução personalizada em vez de uma plataforma pronta (como Wix, Shopify, etc.) ?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Soluções personalizadas oferecem uma flexibilidade que plataformas prontas não conseguem igualar. Com um site ou software sob medida, você tem controle total sobre funcionalidades, design e escalabilidade. Além disso, podemos criar uma solução específica para os processos e objetivos do seu negócio, sem limitações impostas por templates. Isso resulta em uma experiência única para seus usuários e, em muitos casos, maior desempenho a longo prazo.",
     },
     {
-      question: "Where can I reach you for support ?",
+      question: "Vocês oferecem integração com outras plataformas e sistemas ?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Sim, oferecemos soluções de integração completas. Podemos integrar o site ou software desenvolvido com outros sistemas existentes, como CRMs, ERPs, plataformas de pagamento, redes sociais e ferramentas de marketing digital. Isso permite que nossos clientes aproveitem ao máximo suas operações e otimizem processos, criando uma solução integrada e eficiente.",
+    },
+    {
+      question:
+        "Como posso saber se o desenvolvimento do meu site ou software está no caminho certo durante o processo ?",
+      answer:
+        "Adotamos uma abordagem transparente e colaborativa. Durante o desenvolvimento, mantemos os clientes atualizados com relatórios de progresso e demos periódicas, para que possam acompanhar o andamento do projeto. Além disso, realizamos sessões de feedback durante as fases-chave, permitindo ajustes antes da entrega final, garantindo que o produto atenda às expectativas e necessidades do cliente.",
+    },
+    {
+      question:
+        "O que acontece se eu precisar de alterações ou novos recursos no meu site ou software após a entrega ?",
+      answer:
+        "Oferecemos um suporte contínuo após a entrega do projeto. Se precisar de alterações ou novos recursos, temos pacotes de manutenção flexíveis para atender a essas demandas. Combinamos as necessidades de novos desenvolvimentos com a evolução do seu negócio, criando atualizações e implementações que continuam alinhadas com seus objetivos. Nossa equipe está sempre disponível para ajustar e otimizar o produto conforme sua empresa cresce.",
     },
   ],
 }) => {

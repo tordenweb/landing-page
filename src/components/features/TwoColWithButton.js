@@ -2,11 +2,8 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import {
-  SectionHeading,
-  Subheading as SubheadingBase,
-} from "components/misc/Headings.js";
-import TeamIllustrationSrc from "images/team-illustration-2.svg";
+import { SectionHeading } from "components/misc/Headings.js";
+import TeamIllustrationSrc from "images/solution.webp";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
 
 const Container = tw.div`relative`;
@@ -32,21 +29,19 @@ const DecoratorBlob = styled(SvgDotPattern)((props) => [
 
 const TextContent = tw.div`lg:py-8 text-center md:text-left`;
 
-const Subheading = tw(SubheadingBase)`text-center md:text-left`;
 const Heading = tw(
   SectionHeading
 )`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
 const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100`;
 
 export default ({
-  subheading = "Our Expertise",
   heading = (
     <>
-      Soluções de Alta Performance:{" "}
+      Soluções de Alta Performance{" "}
       <p tw="text-blue-500 text-4xl">O Padrão de Qualidade da Torden Web</p>
     </>
   ),
-  description = "Na Torden Web, acreditamos que qualidade é a base para a entrega de soluções realmente eficazes. Por isso, nossas soluções são desenvolvidas com foco em alta performance, garantindo resultados rápidos, eficientes e sustentáveis para o seu negócio. Com um time de especialistas e tecnologias de ponta, asseguramos que cada projeto atenda aos mais altos padrões de qualidade, seguro e totalmente alinhado às necessidades do seu negócio. Ao escolher a Torden Web, você está optando por excelência, inovação e resultados tangíveis que fazem a diferença.",
+  description = "Na Torden Web, oferecemos soluções digitais de alta performance, desenvolvidas com foco na qualidade e eficiência. Nossos especialistas utilizam tecnologias de ponta para criar softwares personalizados e sites otimizados, sempre alinhados às necessidades específicas do seu negócio. Garantimos resultados rápidos, sustentáveis e seguros, com projetos que atendem aos mais altos padrões de qualidade. Ao escolher a Torden Web, você investe em excelência, inovação e resultados concretos para o seu negócio.",
   imageSrc = TeamIllustrationSrc,
   imageRounded = true,
   imageBorder = false,
@@ -71,7 +66,6 @@ export default ({
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
-            <Subheading>{subheading}</Subheading>
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
           </TextContent>

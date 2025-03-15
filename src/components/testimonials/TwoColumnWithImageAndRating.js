@@ -89,21 +89,21 @@ export default ({
       stars: 5,
       profileImageSrc:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
-      heading: "Amazing User Experience",
+      heading: "Além das Expectativas",
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      customerName: "Charlotte Hales",
-      customerTitle: "CEO, Delos Inc.",
+        "Quando procuramos a Torden Web para desenvolver um sistema interno de gestão, estávamos enfrentando vários desafios com a nossa operação. A equipe da Torden Web foi além das expectativas, criando uma solução sob medida que otimizou todos os nossos processos. A plataforma é intuitiva, rápida e se integrou perfeitamente com as ferramentas que já utilizávamos. O suporte contínuo tem sido excelente, e sentimos que sempre podemos contar com eles para ajustes e melhorias. Sem dúvida, a Torden Web foi fundamental para o sucesso da nossa transformação digital.",
+      customerName: "Fernanda Costa",
+      customerTitle: "Diretora de Operações da LuminaTech Ltda.",
     },
     {
       stars: 5,
       profileImageSrc:
         "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-      heading: "Love the Developer Experience and Design Principles !",
+      heading: "Experiência do Usuário Fantástica",
       quote:
-        "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-      customerName: "Adam Cuppy",
-      customerTitle: "Founder, EventsNYC",
+        "Escolhemos a Torden Web para desenvolver nossa plataforma de e-commerce e não poderíamos estar mais satisfeitos com o resultado. A equipe foi extremamente atenciosa durante todo o processo, entendendo exatamente nossas necessidades e oferecendo soluções inovadoras. O site ficou não apenas funcional, mas com um design impecável e uma experiência de usuário fantástica. Desde o lançamento, vimos um aumento significativo nas vendas e na satisfação dos nossos clientes. A Torden Web se tornou um parceiro estratégico essencial para o nosso crescimento digital. Recomendamos com certeza!",
+      customerName: "Lucas Almeida,",
+      customerTitle: "CEO da Trendify.",
     },
   ],
 }) => {

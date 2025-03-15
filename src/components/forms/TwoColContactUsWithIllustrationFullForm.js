@@ -7,10 +7,11 @@ import {
   Subheading as SubheadingBase,
 } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import EmailIllustrationSrc from "images/email-illustration.svg";
+import EmailIllustrationSrc from "images/email-2.jpg";
+import { ReactComponent as CheckIcon } from "feather-icons/dist/icons/check-circle.svg";
 
 const Container = tw.div`relative`;
-const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24`;
+const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-4`;
 const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
 const ImageColumn = tw(Column)`md:w-5/12 flex-shrink-0 h-80 md:h-auto`;
 const TextColumn = styled(Column)((props) => [
@@ -40,6 +41,8 @@ const Textarea = styled(Input).attrs({ as: "textarea" })`
 
 const SubmitButton = tw(PrimaryButtonBase)`inline-block mt-8`;
 
+const ThankYouMessage = tw.div`h-96 text-2xl flex flex-col gap-4 items-center justify-center p-4 shadow-lg shadow-torden-500/25`;
+
 export default ({
   subheading = "Contato",
   heading = (
@@ -53,6 +56,33 @@ export default ({
   formMethod = "get",
   textOnLeft = true,
 }) => {
+  const [result, setResult] = React.useState("");
+  const [error, setError] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("loading");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "f9236881-a79f-4e6f-8054-73b450f20811");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("sent");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setError(data.message);
+      setResult("error");
+    }
+  };
+
   return (
     <Container>
       <TwoColumn>
@@ -64,16 +94,32 @@ export default ({
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
             {description && <Description>{description}</Description>}
-            <Form action={formAction} method={formMethod}>
-              <Input type="email" name="email" placeholder="Email" />
-              <Input type="text" name="name" placeholder="Nome" />
-              <Input type="text" name="subject" placeholder="Assunto" />
-              <Textarea
-                name="message"
-                placeholder="Escreva sua mensagem aqui"
-              />
-              <SubmitButton type="submit">{submitButtonText}</SubmitButton>
-            </Form>
+            {error && (
+              <div tw="text-red-500 translate-y-4 font-bold">
+                Erro ao enviar contato: {error}
+              </div>
+            )}
+            {result === "loading" && (
+              <div tw="translate-y-4 font-bold">Enviando mensagem...</div>
+            )}
+            {result !== "sent" ? (
+              <Form onSubmit={onSubmit}>
+                <Input type="email" name="email" placeholder="Email" required />
+                <Input type="text" name="name" placeholder="Nome" required />
+                <Input type="text" name="subject" placeholder="Assunto" />
+                <Textarea
+                  name="message"
+                  placeholder="Escreva sua mensagem aqui"
+                />
+                <SubmitButton type="submit">{submitButtonText}</SubmitButton>
+              </Form>
+            ) : (
+              <ThankYouMessage>
+                <span>Obrigado, seu e-mail foi enviado com sucesso.</span>
+                <CheckIcon tw="w-20 h-20 text-green-500" />
+                <span>Entraremos em contato em breve!</span>
+              </ThankYouMessage>
+            )}
           </TextContent>
         </TextColumn>
       </TwoColumn>

@@ -15,6 +15,10 @@ module.exports = {
 
       black: "#000",
       white: "#fff",
+      torden: {
+        500: "#428dee",
+        800: "#1a62c2",
+      },
 
       primary: {
         100: "#a273ff",

@@ -7,15 +7,15 @@ import { css } from "styled-components/macro";
 //import Header from "../headers/light.js";
 
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
-import DesignIllustration from "../../images/desktop_torden.jpeg";
+import DesignIllustration from "../../images/desktophome3min2.jpeg";
 
 const Container = tw.div`relative`;
-const TwoColumn = tw.div`flex flex-col lg:flex-row lg:items-center max-w-screen-xl mx-auto`;
+const TwoColumn = tw.div`flex flex-col lg:flex-row lg:items-center max-w-screen-xl mx-auto pt-10`;
 const LeftColumn = tw.div`relative lg:w-5/12 text-center max-w-lg mx-auto lg:max-w-none lg:text-left`;
 const RightColumn = tw.div`relative mt-12 lg:mt-0 flex-1 flex flex-col justify-center lg:self-end`;
 
 const Heading = tw.h1`font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-blue-800 leading-tight`;
-const Subheading = tw.span`uppercase tracking-widest font-bold text-blue-500`;
+//const Subheading = tw.span`uppercase tracking-widest font-bold text-blue-500`;
 const Paragraph = tw.p`my-5 lg:my-8 text-base xl:text-lg`;
 
 const Actions = styled.div`
@@ -40,21 +40,16 @@ export default () => {
                 Torden Web Solutions
               </span>
             </Heading>
-            <Paragraph>
-              Transformando a Tecnologia em Soluções Eficientes.
-            </Paragraph>
             <Actions>
-              <Subheading>A Solução Está Na Palma Da Sua Mão</Subheading>
               <Paragraph>
-                Acreditamos que a solução para os desafios do seu negócio está
-                ao seu alcance, literalmente, nas palmas da sua mão. Com nossas
-                soluções digitais inovadoras, oferecemos a liberdade e a
-                agilidade que sua empresa precisa para se destacar no mercado.
-                Seja através de software sob medida ou um site totalmente
-                otimizado, garantimos que a tecnologia esteja sempre a seu
-                favor, simplificando processos e potencializando resultados tudo
-                com a praticidade que você merece. A solução está aqui, e ela
-                está pronta para transformar o seu futuro digital.
+                Oferecemos soluções digitais sob medida para impulsionar o seu
+                negócio. Desenvolvemos softwares personalizados e sites
+                totalmente otimizados, garantindo que sua empresa tenha a
+                agilidade e eficiência necessárias para se destacar no mercado.
+                Com foco na simplificação de processos e potencialização de
+                resultados, nossas tecnologias são criadas para atender às suas
+                necessidades específicas, sempre com a praticidade e inovação
+                que você merece.
               </Paragraph>
             </Actions>
           </LeftColumn>
@@ -62,6 +57,7 @@ export default () => {
             <IllustrationContainer>
               <img
                 tw="min-w-0 w-full max-w-lg xl:max-w-3xl"
+                className="min-w-0 w-full max-w-lg xl:max-w-2xl"
                 src={DesignIllustration}
                 alt="Design Illustration"
               />

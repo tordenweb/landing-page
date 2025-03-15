@@ -2,7 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import LogoImage from "images/logo.svg";
+import LogoImage from "images/logo1.jpeg";
 import { ReactComponent as LinkedinIcon } from "images/linkedin-icon.svg";
 
 const Container = tw.div`relative bg-gray-200 text-gray-700 -mb-8 -mx-8 px-8 py-20 lg:py-24`;
@@ -37,7 +37,10 @@ export default () => {
             &copy; 2025 Torden Web S. All Rights Reserved.
           </CopywrightNotice>
           <SocialLinksContainer>
-            <SocialLink href="https://www.linkedin.com/" target="_blank">
+            <SocialLink
+              href="https://www.linkedin.com/company/torden-web-solutions/about/"
+              target="_blank"
+            >
               <LinkedinIcon />
             </SocialLink>
           </SocialLinksContainer>

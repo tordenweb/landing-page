@@ -6,10 +6,10 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 
 import useAnimatedNavToggler from "../../helpers/useAnimatedNavToggler.js";
 
-import logo from "../../images/logo.svg";
+import logo from "../../images/logo1.jpeg";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink as Nav } from "react-router-dom";
 //import { useLocation } from "react-router-dom";
 
 const Header = tw.header`
@@ -19,10 +19,10 @@ const Header = tw.header`
 
 export const NavLinks = tw.div`flex justify-between`; // a. inline-block
 
-export const NavLink = tw.div`
+export const NavLink = tw(Nav)`
   text-lg my-2 lg:text-sm lg:mx-6 lg:my-0
-  font-semibold text-blue-800 tracking-wide transition duration-300
-  pb-1 border-b-2 border-transparent hover:border-blue-500 hocus:text-blue-500
+  font-semibold text-torden-800 tracking-wide transition duration-300
+  pb-1 border-b-2 border-transparent hover:border-torden-800
 `;
 
 export const PrimaryLink = tw(NavLink)`
@@ -33,7 +33,7 @@ export const PrimaryLink = tw(NavLink)`
 `;
 
 export const LogoLink = styled(NavLink)`
-  ${tw`flex items-center font-black text-blue-100 hocus:text-blue-800  border-b-0 text-3xl! ml-0!`};
+  ${tw`flex items-center font-black  border-b-0 text-3xl! ml-0!`};
 
   img {
     ${tw`w-10 mr-3`}
@@ -65,12 +65,8 @@ export default ({
   const defaultLinks = [
     <NavLinks key={1}>
       {" "}
-      <NavLink>
-        <Link to={"/saibamais"}>Saiba mais</Link>
-      </NavLink>
-      <NavLink>
-        <Link to={"/contato"}>Contato</Link>
-      </NavLink>
+      <NavLink to="/saibamais">Saiba mais</NavLink>
+      <NavLink to={"/contato"}>Contato</NavLink>
     </NavLinks>,
   ];
 

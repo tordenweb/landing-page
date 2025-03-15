@@ -13,7 +13,7 @@ import Features from "components/features/ThreeColSimple.js";
 import TeamCardGrid from "components/cards/ProfileThreeColGrid.js";
 
 import TecnologicImge from "images/tecnologia.jpg";
-import SupportIconImage from "images/support-icon.svg";
+import cpuIcon from "images/cpu.svg";
 import ShieldIconImage from "images/shield-icon.svg";
 import CustomerLoveIconImage from "images/simple-icon.svg";
 
@@ -50,10 +50,10 @@ export default () => {
           description="Realmente acreditamos que nossos valores são fundamentais para o nosso sucesso. Estamos sempre prontos para ajudar."
           cards={[
             {
-              imageSrc: SupportIconImage,
-              title: "Suporte 24/7",
+              imageSrc: cpuIcon,
+              title: "Inovação Tecnológica",
               description:
-                "Na Torden Web, oferecemos suporte 24/7 para garantir que nossos clientes tenham assistência a qualquer momento, resolvendo problemas rapidamente e mantendo uma experiência digital tranquila.",
+                "Na Torden Web, buscamos constantemente soluções inovadoras que transformam o digital e impulsionam o sucesso dos nossos clientes, foco no futuro.",
             },
             {
               imageSrc: ShieldIconImage,
