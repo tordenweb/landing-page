@@ -2,7 +2,7 @@
   "name": "torden-web-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://tordenweb.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^13.4.0",
