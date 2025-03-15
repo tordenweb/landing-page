@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.cac29b79.js",
+    "main.js": "/static/js/main.3d32469e.js",
     "static/media/tecnologia.jpg": "/static/media/tecnologia.c4757b4163f202aacf13.jpg",
     "static/media/desktophome3min2.jpeg": "/static/media/desktophome3min2.a374adcfab26b6c7d3bc.jpeg",
     "static/media/solution.webp": "/static/media/solution.69908bbf6f0be17e0b7c.webp",
@@ -30,9 +30,9 @@
     "static/media/chevron-down.svg": "/static/media/chevron-down.c3e123cf78bc368a192f3e2dee97daba.svg",
     "static/media/fast-icon.svg": "/static/media/fast-icon.40862acab1ec462ceff73e9c5f29194b.svg",
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.962df6cec61e5366889690a28a03b953.svg",
-    "main.cac29b79.js.map": "/static/js/main.cac29b79.js.map"
+    "main.3d32469e.js.map": "/static/js/main.3d32469e.js.map"
   },
   "entrypoints": [
-    "static/js/main.cac29b79.js"
+    "static/js/main.3d32469e.js"
   ]
 }
