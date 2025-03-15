@@ -40,7 +40,7 @@ export const LogoLink = styled(NavLink)`
   }
 `;
 
-export const MobileNavLinksContainer = tw.nav`flex flex-1 items-center justify-between`;
+export const MobileNavLinksContainer = tw.nav`flex flex-1 items-center justify-between pl-2 pr-4`;
 export const NavToggle = tw.button`
   lg:hidden z-20 focus:outline-none hocus:text-blue-500 transition duration-300
 `;
